@@ -46,4 +46,4 @@ Do not claim exploitability beyond what has been proven.
   - KILLED: hypothesis was disproven or blocked by verified controls.
 2. Do not assume missing validation, missing protection, or exploitability without code-level evidence.
 3. Unsupported claims must remain UNKNOWN or be marked KILLED when disproven.
-4. The analysis must clearly state "NO FINDING" when sufficient evidence cannot be established. Uncertainty must not be converted into a claim, and assumptions must not be presented as conclusions.
+4. The analysis must clearly say "NO" when cannot be established.
