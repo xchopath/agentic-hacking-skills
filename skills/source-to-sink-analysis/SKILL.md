@@ -43,8 +43,9 @@ Once the **SOURCE-to-SINK reconstruction** is complete, perform the reverse **SI
 
 For validation, start completely from scratch.
 
-1. Treat all previously gathered conclusions as untrusted.
-2. Independently retrace the entire code flow from zero using only the available source code and evidence.
+* Treat all previously gathered conclusions as untrusted.
+* Independently retrace the entire code flow from zero using only the available source code and evidence.
+* For every CONFIRMED candidate, independently verify that none of the sources are protected by whitelist restrictions or any similar access-control mechanisms.
 
 ## Output
 
@@ -52,4 +53,4 @@ For validation, start completely from scratch.
 - **SINK:** What code or operation is ultimately reached/executed in the final code flow `X`.
 - **EVIDENCE:** A list of relevant code snippets supporting the reconstructed flow.
 - **REASON:** Keep the explanation **strictly neutral and evidence-based**. Do not label or classify the flow as a vulnerability, since you are **not acting as a vulnerability scanner**.
-- **STATE:** CONFIRMED / UNRESOLVED / REJECTED
+- **STATE:** CONFIRMED / PLAUSIBLE / UNRESOLVED / REJECTED.
