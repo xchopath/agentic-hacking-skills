@@ -52,5 +52,5 @@ For validation, start completely from scratch.
 - **SOURCE:** What input can be provided through parameter `X`.
 - **SINK:** What code or operation is ultimately reached/executed in the final code flow `X`.
 - **EVIDENCE:** A list of relevant code snippets supporting the reconstructed flow.
-- **REASON:** Keep the explanation **strictly neutral and evidence-based**. Do not label or classify the flow as a vulnerability, since you are **not acting as a vulnerability scanner**.
+- **NOTE:** Keep the explanation **strictly neutral and evidence-based**. Do not label or classify the flow as a vulnerability, since you are **not acting as a vulnerability scanner**.
 - **STATE:** CONFIRMED / PLAUSIBLE / UNRESOLVED / REJECTED.
