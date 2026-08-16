@@ -45,7 +45,7 @@ For validation, start completely from scratch.
 
 * Treat all previously gathered conclusions as untrusted.
 * Independently retrace the entire code flow from zero using only the available source code and evidence.
-* For every CONFIRMED candidate, independently verify that none of the sources are protected by whitelist restrictions or any similar access-control mechanisms.
+* For every candidate, independently verify whether the sources are protected by whitelist restrictions or other protection mechanisms. Document the conclusion in the output.
 
 ## Output
 
@@ -53,4 +53,4 @@ For validation, start completely from scratch.
 - **SINK:** What code or operation is ultimately reached/executed in the final code flow `X`.
 - **EVIDENCE:** A list of relevant code snippets supporting the reconstructed flow.
 - **NOTE:** Keep the explanation **strictly neutral and evidence-based**. Do not label or classify the flow as a vulnerability, since you are **not acting as a vulnerability scanner**.
-- **STATE:** CONFIRMED / PLAUSIBLE / UNRESOLVED / REJECTED.
+- **STATE:** CONFIRMED / PLAUSIBLE / UNRESOLVED
