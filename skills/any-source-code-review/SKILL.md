@@ -51,18 +51,13 @@ Search for relevant:
 ## Validation
 
 * Independently re-validate every conclusion from scratch.
-* Never treat assumptions or PLAUSIBLE observations as CONFIRMED without sufficient evidence.
 * Do not rely solely on previous responses. Again, start from scratch!
-* Make sure every relevant class, function, variable, and source is actually read.
-* Make sure nothing is overlooked (perform a double or triple check).
+* Make sure nothing is overlooked (perform a double check).
 
 ## Rules
 
-* Do not make assumptions without supporting evidence.
-* Do not treat unverified findings as CONFIRMED.
-* Do not skip double verification steps.
-* Clearly distinguish facts, assumptions, and hypotheses.
-* If evidence is insufficient, state that it is UNRESOLVED.
+* Do not make claims without supporting evidence.
+* Do not skip validation steps.
 
 ## Output
 
