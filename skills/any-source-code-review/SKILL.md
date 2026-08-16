@@ -1,11 +1,11 @@
 ---
 name: any-source-code-review
-description: Perform a rigorous, evidence-based, end-to-end source code review to fully reconstruct the relevant flow, and independently re-validate every single thing.
+description: Perform a rigorous, evidence-based, end-to-end source code review to fully reconstruct the relevant flow and independently re-validate every single thing.
 ---
 
 ## Purpose
 
-Think like a HACKER with 20 years of programming experience, knowing how to perform source code tracing in the most accurate way, not like a script kiddie who blindly relies on grep.
+Think like a HACKER with 20 years of programming experience, knowing how to perform source code tracing in the most accurate way (not like a script kiddie who blindly relies on grep or assumption).
 
 The instructions will be provided by the user when this skill is executed.
 
@@ -18,31 +18,43 @@ Perform this as an actual end-to-end code review. Reconstruct the entire flow be
 * Read and understand the actual implementation.
 * Trace every relevant class, function, variable, and call throughout the entire flow.
 * Reconstruct how all relevant components are connected and how data and control flow between them.
-* Do not rely solely on grep/find string, isolated file contents, filenames, or assumptions based on class/function or variable names.
+* Do not rely solely on grep/find string searches, isolated file contents, filenames, or assumptions based on class, function, or variable names.
 * Base the validation strictly on what the actual code demonstrates, not on assumptions or inferred behavior.
 
 ### 2. Alternative Approach
 
-> **Prerequisite:** This phase MUST ONLY be performed after "Source Code Review" phase is complete.
+> **Prerequisite:** This phase MUST ONLY be performed after the "1. Source Code Review" phase is complete.
 
 A single review is not enough, so this must be done **from scratch**.
 
-* Challenge the previous approach from a different perspective by researching alternative paths and identify potential gaps and blind spots.
-* List down the potential gaps and blind spots, then repeat "Source Code Review" phase independently with these in mind.
+* Challenge the previous approach from a different perspective by researching alternative paths and identifying potential gaps and blind spots.
+* List the potential gaps and blind spots, then repeat the "Source Code Review" phase independently with these in mind.
 
 ## Analysis
 
 When conducting analysis to formulate a hypothesis, make sure the sources are relevant and reliable, such as real-world cases found on the internet, Stack Overflow, GitHub, Reddit, official documentation, and other credible sources.
 
-The search queries should also be idiot-proof and focused on understanding how something works, e.g. "how does X work?" rather than "how to hack X?".
+Search queries should also be idiot-proof and focused on understanding how something works, e.g. "how does X work?" rather than "how to hack X?".
+
+## Rechecking Dead Ends
+
+> **Prerequisite:** This phase MUST ONLY be performed after the "Analysis" phase is complete.
+
+**The Internet is everything!**
+
+Whenever you hit a DEAD END or a REJECTED candidate, **DO NOT** give up. Search for relevant:
+
+* Edge cases
+* Alternative approaches
+* Overlooked possibilities
 
 ## Validation
 
 * Independently re-validate every conclusion from scratch.
 * Never treat assumptions or PLAUSIBLE observations as CONFIRMED without sufficient evidence.
-* Do not rely solely on the previous responses. Again, from scratch!
-* Make sure every class, function, variable, and source is actually read
-* Make sure nothing is overlooked (perform double check).
+* Do not rely solely on previous responses. Again, start from scratch!
+* Make sure every relevant class, function, variable, and source is actually read.
+* Make sure nothing is overlooked (perform a double or triple check).
 
 ## Rules
 
@@ -51,7 +63,6 @@ The search queries should also be idiot-proof and focused on understanding how s
 * Do not skip double verification steps.
 * Clearly distinguish facts, assumptions, and hypotheses.
 * If evidence is insufficient, state that it is UNRESOLVED.
-* Internet is everything! Whenever you hit a dead end, search for edge cases!
 
 ## Output
 
