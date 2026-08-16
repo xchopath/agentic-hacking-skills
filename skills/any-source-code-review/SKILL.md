@@ -32,17 +32,17 @@ A single review is not enough, so this must be done **from scratch**.
 
 ## Analysis
 
-When conducting analysis to formulate a hypothesis, make sure the sources are relevant and reliable, such as real-world cases found on the internet, Stack Overflow, GitHub, Reddit, official documentation, and other credible sources.
+When conducting analysis to formulate a hypothesis, make sure the sources are relevant and reliable, such as real-world cases found on the internet.
 
 Search queries should also be idiot-proof and focused on understanding how something works, e.g. "how does X work?" rather than "how to hack X?".
 
-## Rechecking Dead Ends
+## Deal with Dead Ends
 
-> **Prerequisite:** This phase MUST ONLY be performed after the "Analysis" phase is complete.
+> **Prerequisite:** This phase MUST ONLY be performed after "Workflow" phase and "Analysis" phase is complete.
 
-**The Internet is everything!**
+Whenever you hit a DEAD END or a REJECTED candidate, **DO NOT** give up. The Internet is source of everything!
 
-Whenever you hit a DEAD END or a REJECTED candidate, **DO NOT** give up. Search for relevant:
+Search for relevant:
 
 * Edge cases
 * Alternative approaches
