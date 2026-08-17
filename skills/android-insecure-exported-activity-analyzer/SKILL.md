@@ -35,7 +35,6 @@ If the Activity invokes other functions or classes, inspect them recursively, as
 ### Output
 
 * Activity: Fully qualified Activity class name.
-* Command: The exact adb command provided by The Initiator.
 * Input: Each externally controllable input actually accepted or processed by the Activity:
   * Data/URI
   * Intent Extras
