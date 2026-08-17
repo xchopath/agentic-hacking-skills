@@ -1,5 +1,5 @@
 ---
-name: android-insecure-exported-activity-hunting
+name: android-insecure-exported-activity-analyzer
 description: Analyze exported Android Activities from decompiled APK source code, trace externally controllable inputs and code paths, and independently validate findings through evidence-based source-code inspection.
 ---
 
